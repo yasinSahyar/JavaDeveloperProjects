@@ -26,5 +26,8 @@ public class ReadFilesWithScanner {
 
          */
 
+        System.out.println(scan.hasNext()); //true
+        scan.close();
+
     }
 }
