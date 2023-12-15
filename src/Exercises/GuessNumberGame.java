@@ -12,9 +12,6 @@ public class GuessNumberGame {
         Random random = new Random();
         int targetNumber = random.nextInt(100) + 1;
 
-        // Uncomment the line below if you want to use a fixed number (e.g., 45)
-        // int targetNumber = 45;
-
         Scanner scanner = new Scanner(System.in);
         int guess;
 
