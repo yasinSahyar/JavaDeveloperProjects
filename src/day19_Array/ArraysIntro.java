@@ -23,8 +23,24 @@ public class ArraysIntro {
         //scores[5] = 100;//out of bound exception
         //scores[-1] = 69;//Index -1 out of bound exception
 
+        //scores = new int[10]; //index: 0~9
+        //scores = new int[50]; //index:0~49
+
 
         System.out.println(Arrays.toString(scores) );
+
+        System.out.println(scores[2] );
+
+        System.out.println("-------------------");
+
+        for (int i = 0; i < scores.length; i++) {// i: index number of scores array
+            System.out.println(scores[i]);
+
+        }
+        System.out.println("------------------------------");
+
+        System.out.println(scores[scores.length-1]);
+
 
 
     }
