@@ -1,4 +1,4 @@
-package day20_ArraysContinue;
+package day20_forEach;
 
 import java.util.Arrays;
 import utility.ArraysUtility;
@@ -47,6 +47,15 @@ public class MergeTwoArrays {
         char[] ch3 = ArraysUtility.merge(ch1,ch2);
 
         System.out.println(Arrays.toString(ch3));
+
+        System.out.println("-------------------------");
+
+        String[] c1 = {"Java", "Python", "JavaScript", "Ruby", "HTML"};
+        String[] c2 = {"C#", "SQL", "C++"};
+
+        String[] c3 = ArraysUtility.merge(c1,c2);
+
+        System.out.println(Arrays.toString(c3));
 
 
     }
