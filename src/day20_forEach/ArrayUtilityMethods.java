@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class ArrayUtilityMethods {
     public static void main(String[] args) {
 
+        //iteration----kiqiktin chongha karap tizish
+
         int[] score = {70,100,80,95,65};
 
         System.out.println(Arrays.toString(score));
