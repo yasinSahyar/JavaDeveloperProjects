@@ -1,4 +1,4 @@
-package Week10_Overriding;
+package Week10_Overriding.practice_task;
 
 public class Employee extends Person {
 

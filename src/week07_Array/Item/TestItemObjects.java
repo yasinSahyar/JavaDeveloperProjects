@@ -4,22 +4,23 @@ import java.util.Arrays;
 
 public class TestItemObjects {
 
+
     public static void main(String[] args) {
 
-        Item item1 = new Item();
-        Item item2 = new Item();
-        Item item3 = new Item();
-        Item item4 = new Item();
-        Item item5 = new Item();
-        Item item6 = new Item();
-        Item item7 = new Item();
-        Item item8 = new Item();
-        Item item9 = new Item();
-        Item item10 = new Item();
-        Item item11 = new Item();
+        Item item1 = new Item("Pen", 4, 1.5);
+        Item item2 = new Item("Notebook", 5, 3.5);
+        Item item3 = new Item("Mouse", 5, 3.5);
+        Item item4 = new Item("Keyboard", 5, 3.5);
+        Item item5 = new Item("Apple", 5, 3.5);
+        Item item6 = new Item("Cherry", 5, 3.5);
+        Item item7 = new Item("Eraser", 5, 3.5);
+        Item item8 = new Item("Ruler", 5, 3.5);
+        Item item9 = new Item("Backpack", 5, 3.5);
+        Item item10 = new Item("Orange", 5, 3.5);
+        Item item11 = new Item("Headphone", 5, 3.5);
 
 
-
+/*
         item1.setInfo("Pen", 4, 1.5);
         item2.setInfo("Notebook", 5, 3.5);
         item3.setInfo("Mouse", 5, 3.5);
@@ -32,8 +33,8 @@ public class TestItemObjects {
         item10.setInfo("Orange", 5, 3.5);
         item11.setInfo("Headphone", 5, 3.5);
 
-        System.out.println(item1);
-        System.out.println(item2);
+ */
+
         // System.out.println(item1);
         //  System.out.println(item2);
 
@@ -41,22 +42,20 @@ public class TestItemObjects {
 
         ShoppingCart cart = new ShoppingCart();
 
-        System.out.println( Arrays.toString(cart.items) );
 
         cart.addItem(item1);
         cart.addItem(item2);
         cart.addItem( item3 );
         cart.addItem( item4 );
-        cart.addItem( item5 );
-        cart.addItem( item6 );
-        cart.addItem( item7 );
-        cart.addItem( item8 );
-        cart.addItem( item9 );
-        cart.addItem( item10 );
+        //   cart.addItem( item5 );
+        //   cart.addItem( item6 );
+        //  cart.addItem( item7 );
+        //  cart.addItem( item8 );
+        //  cart.addItem( item9 );
+        // cart.addItem( item10 );
 
 
         //  cart.addItem(item11);
-
 
         // System.out.println( Arrays.toString(cart.items) );
 
@@ -65,6 +64,6 @@ public class TestItemObjects {
 
 
 
-
     }
+
 }

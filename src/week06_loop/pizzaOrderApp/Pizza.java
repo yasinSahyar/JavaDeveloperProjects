@@ -1,6 +1,7 @@
 package week06_loop.pizzaOrderApp;
 
 public class Pizza {
+
     public String size;
     public int numberOfCheeseTopping, numberOfPepperoniTopping, quantity;
 
@@ -33,22 +34,26 @@ public class Pizza {
 
 }
 
-
 /*
 Create a custom Java class named Pizza with the following specifications:
+
     Attributes:
         size: Indicates the size of the pizza (small, medium, large, or extra-large).
         quantity: Indicates the quantity of pizza
         numberOfCheeseTopping: Indicates the number of cheese toppings.
         numberOfPepperoniTopping: Indicates the number of pepperoni toppings.
+
     Actions:
         setInfo: Sets all the fields of the pizza object.
         calcCost(): Returns the total cost of the pizza.
         toString(): Returns a string containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost().
+
         The pizza cost is determined by:
             Small: Starts at $10.
             Medium: Starts at $12.
             Large: Starts at $14.
+
             Per pepperoni topping: $1.5
             Per cheese topping: $0.8
+
  */

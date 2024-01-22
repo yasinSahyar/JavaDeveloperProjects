@@ -1,6 +1,8 @@
-package Week10_Overriding;
+package Week10_Overriding.practice_task;
 
-public class Manager extends Employee{
+import Week10_Overriding.practice_task.Employee;
+
+public class Manager extends Employee {
 
     private String department;
 

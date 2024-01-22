@@ -1,11 +1,11 @@
 package week07_Array.Item;
-
 public class Item {
+
     public String itemName;
     public int quantity;
     public double unitPrice;
 
-    public void setInfo(String itemName, int quantity, double unitPrice){
+    public Item(String itemName, int quantity, double unitPrice){
         this.itemName = itemName;
         this.quantity = quantity;
         this.unitPrice = unitPrice;
@@ -33,6 +33,7 @@ Create a class named Item with the following requirements:
 		itemName: contains the name of the item.
 		quantity: contains the quantity of the item.
 		unitPrice: contains the unit price of the item.
+
 	Actions:
 		setInfo(): sets all the attributes of the item.
 		calcCost(): calculates the total cost of the item.
